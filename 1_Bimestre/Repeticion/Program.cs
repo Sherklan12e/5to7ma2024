@@ -78,9 +78,9 @@
 //Ejercicio 11
 //Hacer un algoritmo para mostrar por pantalla los números del 20 al 200 en orden creciente
 
-int i = 20;
-do
-{
-    Console.WriteLine(i);
-    i++;
-} while (i <= 200);
+// int i = 20;
+// do
+// {
+//     Console.WriteLine(i);
+//     i++;
+// } while (i <= 200);
