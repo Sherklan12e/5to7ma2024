@@ -217,6 +217,6 @@ while (true){
     bandera ++; 
 }
 
-Console.WriteLine("El numero mayor es es " + mayor);
+Console.WriteLine("El numero mayor es es: " + mayor);
 Console.WriteLine("y la cantidad de veces es: " + cantidad);
 
