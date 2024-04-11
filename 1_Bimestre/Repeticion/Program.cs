@@ -53,7 +53,7 @@
 // }
 // Console.WriteLine("La suma total de los numeros: " + suma);
 
-// Diseñar un algoritmo en el cual el usuario ingrese números indefinidamente. Si el número ingresado es cero se debe detener la carga e informar por pantalla la suma de los números positivos y el producto de los números negativos.
+// 7 Diseñar un algoritmo en el cual el usuario ingrese números indefinidamente. Si el número ingresado es cero se debe detener la carga e informar por pantalla la suma de los números positivos y el producto de los números negativos.
 // int i = 1;
 // int suma = 0;
 // int producto = 1;
@@ -80,15 +80,27 @@
 
 // Console.WriteLine("El producto de todos los numero negativos es: " + producto);
 
-// Realizar un algoritmo en donde el usuario ingrese cadenas de caracteres de forma indefinida. Si la cadena ingresada es una cadena vacía (salto de línea), se debe informar por pantalla la cantidad de líneas ingresadas.
+// ejercicio 8 Realizar un algoritmo en donde el usuario ingrese cadenas de caracteres de forma indefinida. Si la cadena ingresada es una cadena vacía (salto de línea), se debe informar por pantalla la cantidad de líneas ingresadas.
 
+// int cantidadLineas = 0;
 
+// while (true){
+// Console.WriteLine("Ingrese una cadena de caracteres enter para acabar: ");
+// string cadena = Console.ReadLine();
+// if (string.IsNullOrWhiteSpace(cadena)){ 
+//         break;
+//     }
+
+//     cantidadLineas++;
+// }
+
+// Console.WriteLine("Se ingreso " + cantidadLineas + " lineas.");
 
 
 
 // Ejercicio9
 
-// Realizar un algoritmo en donde el usuario ingrese dos números enteros distintos indefinidamente. Se debe informar por pantalla la suma de dichos números siempre y cuando ambos números sean distintos. Si ambos números son iguales debe finalizar el algoritmo.
+// 9 Realizar un algoritmo en donde el usuario ingrese dos números enteros distintos indefinidamente. Se debe informar por pantalla la suma de dichos números siempre y cuando ambos números sean distintos. Si ambos números son iguales debe finalizar el algoritmo.
 
 // int resultado = 0;
 // int num1=0;
@@ -106,7 +118,7 @@
 // }
 // while (num1 != num2);
 
-// Realizar un algoritmo que informe por pantalla todos los números naturales desde el 1 (uno) hasta el número natural que el usuario ingrese por teclado.
+// 10 Realizar un algoritmo que informe por pantalla todos los números naturales desde el 1 (uno) hasta el número natural que el usuario ingrese por teclado.
 // int numero = 0;
 // int i = 0;
 // numero = Convert.ToInt32(Console.ReadLine());
@@ -117,7 +129,7 @@
 //     i++;
 // }
 // while ( numero > i);
-// Hacer un algoritmo para mostrar por pantalla los números del 20 al 200 en orden creciente
+// 11 Hacer un algoritmo para mostrar por pantalla los números del 20 al 200 en orden creciente
 // int numero = 19;
 // do
 // {
@@ -127,7 +139,7 @@
 // while (numero < 200);
 
 
-// Realizar un algoritmo que permita al usuario ingresar por teclado la cantidad de agua caída en milímetros (número entero) día a día durante un mes (1 mes = 30 días). Se pide informar por pantalla el número de día en el que llovió más, el número de día en el que llovió menos y el promedio de lluvia caída (en milímetros) durante el mes.
+// 12 Realizar un algoritmo que permita al usuario ingresar por teclado la cantidad de agua caída en milímetros (número entero) día a día durante un mes (1 mes = 30 días). Se pide informar por pantalla el número de día en el que llovió más, el número de día en el que llovió menos y el promedio de lluvia caída (en milímetros) durante el mes.
 // int num = 0;
 // int numdia = 0;
 // int numdiamenor = 0;
@@ -163,7 +175,7 @@
 // Console.WriteLine("El promedio seria en total de "+ promedio);
 
 
-// Realizar un programa que pida la estatura (en metros) y edad de un número indeterminado de personas. Posteriormente se debe informar por pantalla la estatura media de las personas mayores a 21 años y la estatura más alta de las personas menores a 21 años.
+// 13 Realizar un programa que pida la estatura (en metros) y edad de un número indeterminado de personas. Posteriormente se debe informar por pantalla la estatura media de las personas mayores a 21 años y la estatura más alta de las personas menores a 21 años.
 
 // decimal estatura = 0;
 // int edad = 0;
@@ -196,27 +208,30 @@
 // Console.WriteLine("La estatura medio de las personas mayores a 21 es: "+ promedio);
 // Console.WriteLine("La estatura alta de las personas menorese de 21 es: " + persona);
 
-// Realizar un algoritmo que lea una cantidad indefinida de números naturales y se termine la carga con el número cero. Posteriormente informar por pantalla cuál fue el número mayor ingresado y que cantidad de veces fue ingresado.
-int numero1 = 0;
-int bandera = 1;
-int cantidad =0;
-int mayor = 0;
-int index = 0;
+// 14 Realizar un algoritmo que lea una cantidad indefinida de números naturales y se termine la carga con el número cero. Posteriormente informar por pantalla cuál fue el número mayor ingresado y que cantidad de veces fue ingresado.
+// int numero1 = 0;
+// int bandera = 1;
+// int cantidad =0;
+// int mayor = 0;
+// int index = 0;
 
-while (true){
-    Console.WriteLine("Ingrese el numero : " + bandera);
-    numero1 = Convert.ToInt32(Console.ReadLine());
-    if (numero1 == 0){
-        break;
-    }
+// while (true){
+//     Console.WriteLine("Ingrese el numero : " + bandera);
+//     numero1 = Convert.ToInt32(Console.ReadLine());
+//     if (numero1 == 0){
+//         break;
+//     }
     
-    if (numero1 > mayor){
-        mayor = numero1;
-        cantidad ++;
-    }
-    bandera ++; 
-}
+//     if (numero1 > mayor){
+//         mayor = numero1;
+//         cantidad = 1;
+//     }
+//     else if (numero1== mayor){
+//         cantidad++;
+//     }
+//     bandera ++; 
+// }
 
-Console.WriteLine("El numero mayor es es: " + mayor);
-Console.WriteLine("y la cantidad de veces es: " + cantidad);
+// Console.WriteLine("El numero mayor es es: " + mayor);
+// Console.WriteLine("y la cantidad de veces es: " + cantidad);
 
