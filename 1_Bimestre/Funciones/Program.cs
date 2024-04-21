@@ -50,6 +50,70 @@
 // Console.WriteLine("La cantidad de numeros impares son: "+ impar);
 
 // ejercicio3
+// Ejercicio 3
+// Ingresa 3 (tres) números enteros y validar mediante una función si cada número se encuentra dentro del rango de -100 a 100. Se debe informar por pantalla el valor mínimo, el máximo y el promedio para aquellos números.  
+
+
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// int num3 = Convert.ToInt32(Console.ReadLine());
+// int promedio(int num1, int num2, int num3){
+    
+//     int promedio = 0;
+//     promedio = num1 + promedio;
+//     promedio = num2 + promedio;
+//     promedio = num3 + promedio;
+//     promedio = promedio /3;
+//     return promedio;
+
+// }
+// bool ValidaNum(int num){
+//     return num >= -100 && num <= 100;
+      
+// }
+// void Valorminimo(int num1 , int num2, int num3, out int minimo , out int maximo){
+//     minimo = maximo = num1;
+//     if (ValidaNum(num1)){
+//         if (num1 > maximo){
+//             maximo = num1;
+//         }
+//         if (num1 < minimo){
+//             minimo = num1;
+//         }
+//     }
+//     if (ValidaNum(num2)){
+//         if (num2 > maximo){
+//             maximo = num2;
+//         }
+//         if (num2 < minimo){
+//             minimo = num2;
+//         }
+//     }
+//     if (ValidaNum(num3)){
+//         if (num3 > maximo){
+//             maximo = num3;
+//         }
+//         if (num3 < minimo){
+//             minimo = num3;
+//         }
+//     }
+// }
+// int minimo,maximo ;
+// int numpromedo = promedio(num1,num2, num3);
+
+// Valorminimo(num1,num2,num3,out minimo, out maximo);
+// Console.WriteLine("El numero minimo: "+ minimo );
+// Console.WriteLine("El numero maximo: " + maximo);
+// Console.WriteLine("Promedio: " + numpromedo);
+
+
+// Ejercicio 4
+// Realizar un programa que se ingresen calificaciones (de 1 a 10) de forma indefinida y mediante una función escribir por pantalla la calificación en texto, por ejemplo si se ingresa 7 se debe informar “siete”. La carga debe finalizar cuando se ingresa la nota 0 (cero).
+
+
+
+
+
 
 
 
