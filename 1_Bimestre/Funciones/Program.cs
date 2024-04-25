@@ -36,7 +36,7 @@
 //     }else{
 //         impar++;
 //     }
-    
+	
 //     if (EsPar(num3)){
 //         count++;
 //     }else{
@@ -58,7 +58,7 @@
 // int num2 = Convert.ToInt32(Console.ReadLine());
 // int num3 = Convert.ToInt32(Console.ReadLine());
 // int promedio(int num1, int num2, int num3){
-    
+	
 //     int promedio = 0;
 //     promedio = num1 + promedio;
 //     promedio = num2 + promedio;
@@ -69,7 +69,7 @@
 // }
 // bool ValidaNum(int num){
 //     return num >= -100 && num <= 100;
-      
+	  
 // }
 // void Valorminimo(int num1 , int num2, int num3, out int minimo , out int maximo){
 //     minimo = maximo = num1;
@@ -110,15 +110,117 @@
 // Ejercicio 4
 // Realizar un programa que se ingresen calificaciones (de 1 a 10) de forma indefinida y mediante una función escribir por pantalla la calificación en texto, por ejemplo si se ingresa 7 se debe informar “siete”. La carga debe finalizar cuando se ingresa la nota 0 (cero).
 
+// string Calificaion(int cali) 
+// {
+// 	if (cali==1)
+// 	{
+// 		return "uno";
+// 	}
+// 	else if (cali==2)
+// 	{
+// 		return "dos";
+// 	}
+// 	else if (cali==3)
+// 	{
+// 		return "tres";
+// 	}
+// 	else if (cali==4)
+// 	{
+// 		return "cuatro";
+// 	}
+// 	else if (cali==5)
+// 	{
+// 		return "cinco";
+// 	}
+// 	else if (cali==6)
+// 	{
+// 		return "seis";
+// 	}
+// 	else if (cali==7)
+// 	{
+// 		return "siete";
+// 	}
+// 	if (cali==8)
+// 	{
+// 		return "ocho";
+// 	}
+// 	else if (cali==9)
+// 	{
+// 		return "nueve";
+// 	}
+// 	else if (cali==10)
+// 	{
+// 		return "diez";
+// 	}
+// 	else
+// 	{
+// 		return "Numero fuera de rango";
+// 	}
+// };
+// int numero  = 0;
+//  while (true){ 
+// 	Console.WriteLine("Escribe el numero pe causa : ");
+// 	numero = Convert.ToInt32(Console.ReadLine());
+// 	if (numero == 0)
+// 	{
+// 		break;
+// 	}
+// 	else
+// 	{
+// 	string calif = Calificaion(numero);
+	
+// 	Console.WriteLine(calif);
+		
+// 	}
+// };
+// Ejercicio 5
+// Crear una función que calcule la temperatura media de un día a partir de la temperatura máxima y mínima. Crear un programa principal, que utilizando la función anterior, vaya pidiendo la temperatura máxima y mínima de cada día y vaya informando por pantalla la temperatura media. El programa pedirá previamente el número de días que se van a introducir.
+
+// int calcularatemparura(int maximo , int minima)
+// {
+// 	int promedio = 0;
+// 	promedio = (maximo + minima) / 2 ;
+// 	return promedio;
+// };
+// int count = 0;
+// int calculo = 0;
+
+// Console.WriteLine("Escribe cuantos Dias: ");
+// int pregunta = Convert.ToInt32(Console.ReadLine());
+
+// while (true)
+// {	
+// 	Console.WriteLine("dia"+ (count +1));
+	
+	
+// 	Console.WriteLine("Escribe la temperatura maxima!: ");
+// 	int numero1 = Convert.ToInt32(Console.ReadLine());
+// 	Console.WriteLine("Escribe la temperatura minima!: ");
+// 	int numero2 = Convert.ToInt32(Console.ReadLine());
+	
+	
+// 	calculo = calcularatemparura(numero1,numero2);
+// 	Console.WriteLine("Promedio: "+calculo);
+// 	count++;
+// 	if (pregunta==count)
+// 	{
+// 		break;
+// 	}
+	
+// };
+
+// Ejercicio 6 
+// Escribir un programa que permita ingresar una fecha compuesta por el campo día, mes y año (variables enteras). Validar mediante una función el día teniendo en cuenta si el año es bisiesto. Un año es bisiesto si es múltiplo de 4. Los años múltiplos de 100 no son bisiestos, salvo si ellos también son múltiplos de 400 (2000 es bisiesto pero 1900 no).  Informar por pantalla si el año es bisiesto o no.
+// // 
 
 
 
 
+// Ejercicio 7
+// Escribir un programa que permita ingresar una fecha compuesta por el campo día, mes y año. Validar mediante una función si la cantidad de días corresponde a cada mes del año, por ejemplo enero tiene 31 días. Imprimir por pantalla si la cantidad de días es correcta para el mes ingresado.
 
-
-
-
-
+// Ejercicio 8
+// Realizar un programa que permita el ingreso de varios valores que correspondan a la temperatura promedio de cada uno de los meses de un año. Mediante una función informar por pantalla si la temperatura es cálida (mayor o igual a 23°) o frío (menor o igual a 18°), en otro caso no se debe informar (temperatura templada).
 
 
 
