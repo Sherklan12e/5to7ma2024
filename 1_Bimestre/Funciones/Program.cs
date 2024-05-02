@@ -1,4 +1,106 @@
-﻿// ejercicio1
+﻿
+// Realizar un algoritmo que permita ingresar un número entero que represente un día de la semana (0:Domingo, 1:Lunes, 2:Martes, 3:Miércoles, 4:Jueves, 5:Viernes, 6:Sábado). Informar por pantalla si el valor ingresado representa un día hábil (Lunes a Viernes)l, fin de semana o no corresponde a un día de la semana.
+
+// int numero = Convert.ToInt32(Console.ReadLine());
+
+// if (numero > 7)
+// {
+// 	Console.WriteLine("Este no se encuentra en un numero de la semana");
+// }
+// else
+// {
+// 	switch (numero)
+// 	{
+// 		case 0:
+// 			Console.WriteLine("Domingo");
+// 			Console.WriteLine("Fin de semana");
+// 			break;
+// 		case 1:
+// 			Console.WriteLine("Lunes");
+// 			Console.WriteLine("Dia habitual");
+// 			break;
+// 		case 2:
+// 			Console.WriteLine("Martes");
+// 			Console.WriteLine("Dia habitual");
+// 			break; 
+// 		case 3:
+// 			Console.WriteLine("Miercoles");
+// 			Console.WriteLine("Dia habitual");
+// 			break;
+// 		case 4:
+// 			Console.WriteLine("Jueves");
+// 			Console.WriteLine("Dia habitual");
+// 			break;
+// 		case 5:
+// 			Console.WriteLine("Viernes");
+// 			Console.WriteLine("Dia habitual");
+// 			break;
+// 		case 6:
+// 			Console.WriteLine("Sabado");
+// 			Console.WriteLine("Fin de semana");
+// 			break;
+// 	}
+// }
+
+// Realizar un algoritmo que permita ingresar números enteros hasta que se ingrese el cero e informar por pantalla:
+// La suma de todos números positivos
+// La cantidad total de números ingresados 
+// decimal suma = 0;
+// while(true)
+// {
+// 	decimal numero = Convert.ToDecimal(Console.ReadLine());
+// 	if(numero == 0)
+// 	{
+// 		break;
+// 	}
+// 	if(numero > 0)
+// 	{
+// 		suma = suma + numero;
+// 	}
+	
+// }
+
+// Console.WriteLine("La suma de los numeros" + suma);
+
+
+
+// Realizar un algoritmo para mostrar por pantalla los números del 20 al 200 en orden creciente
+
+
+
+// for(int i = 19; i<200; i++)
+// {
+// 	Console.WriteLine("El numero: "+ (1+i));
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ejercicio1
 
 // int numero1 = Convert.ToInt32(Console.ReadLine());
 // bool validar(int numero){
