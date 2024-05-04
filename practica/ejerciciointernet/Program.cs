@@ -98,7 +98,7 @@
         }
         return primo;
     }
-    static void Main()
+   
     {
         int num;
         Console.WriteLine("Ingrese un numero entero : ");
@@ -114,11 +114,3 @@
 
 
 
-
-// # 4
-// 4.- Crea un método que identifique la edad ingresada , si ingresa el valor 0 muestre un mensaje de ERROR, seguido distinguir la edad ingresad ,si es menor de 18 , indicar que es menor de edad, si ingresa mayor a 18 y menor a 60, indicar que es una persona mayor de edad, y por ultimo si es mayor de 60 , indicar que es una persona adulto mayor.
-
-
-
-// # 5
-// 5.- Calcular el monto total de ventas del día de una tienda, se desea saber la cantidad de clientes y el monto comprado por cada cliente.
